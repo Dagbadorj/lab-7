@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 2500px;
+  margin: auto;
+}
+.topbar {
+  width: 100%;
+  height: 80px;
+}
+.toplogo {
+  width: 40%;
+  float: left;
+}
+.logo {
+  display: block;
+  width: 150px;
+  height: 32px;
+  font-size: 0px;
+  text-indent: -10vw;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: contain;
+  padding-top: 20px;
+  padding-left: 20%;
+}
+.menu {
+  width: 60%;
+  float: left;
+}
+.class {
+  padding-top: 20px;
+  padding-left: 10%;
+  font-size: 12px;
+}
+.video {
+  width: 100%;
+}
+#videoBG {
+  z-index: -1;
+  width: 100%;
+}
+a {
+  font-size: 11px;
+  color: black;
+}
+.space {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+.car1 {
+  width: 30%;
+  height: 300px;
+  float: left;
+  padding-left: 5%;
+}
+.car2 {
+  width: 30%;
+  height: 300px;
+  float: left;
+}
+.car3 {
+  width: 30%;
+  height: 300px;
+  float: left;
+  padding-right: 5%;
+}
