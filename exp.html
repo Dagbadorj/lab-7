@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lexus</title>
     <link rel="stylesheet" href="exp.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
     <body>
     <section class="showcase">
-        <header>
-        <img src="https://www.lexus.com/assets/img/global/lexus_logo_english.png" class='logo'>
-        <p class="class">
-                <a href="">SEDAN</a>&emsp;&emsp;&emsp;&emsp;<a href="">SUV</a>&emsp;&emsp;&emsp;&emsp;
-                <a href="">COUP</a>&emsp;&emsp;&emsp;&emsp;<a href="">HYBRID & ELECTRIC</a>&emsp;&emsp;&emsp;&emsp;
-                <a href="">PERFORMANCE</a>&emsp;&emsp;&emsp;&emsp;<a href="">FUTURE</a>
-        </p>
+        <header class="head">
+            <div class="logot">
+            <img src="https://www.lexus.com/assets/img/global/lexus_logo_english.png" class='logo'>
+            </div>
+            <div class="class" id="sideNav">
+                <nav>
+                    <a href="#">SEDAN</a>
+                    <a href="#">COUOP</a>
+                    <a href="#">HYBRID & ELECTRIC</a>
+                    <a href="#">PERFORMANCE</a>
+                    <a href="#">FUTURE</a>
+                </nav>
+            </div>
+            <div id="menuBtn">
+                <img src="image/1.jpg" alt="">
+            </div>
         </header>
         <video src="video/carvideo.mp4" muted loop autoplay></video>
         <div class="overlay"></div>
@@ -31,5 +41,6 @@
         <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
         </ul>
     </section>
+    <script src="exp.js"></script> 
     </body>
 </html>
